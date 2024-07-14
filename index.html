@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="icon" href="./images/logo (1).png" />
+    <!-- font awesome -->
+    <link href="./css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- animate css -->
+    <link href="./css/animate.min.css" rel="stylesheet" type="text/css">
+    <!-- style links -->
+    <link href="./css/output.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="bg-black overflow-hidden">
+    <!-- side bar -->
+    <aside class="h-screen fixed top-0 w-auto flex z-10 transition-all duration-700">
+        <div class="nav-links flex flex-col justify-between text-white px-5 py-8 bg-black  transition-all duration-700">
+
+            <div class="links">
+                <ul class="flex flex-col gap-y-5">
+                    <li id="search" class="cursor-pointer">Search</li>
+                    <li id="categories" class="cursor-pointer">Categories</li>
+                    <li id="area" class="cursor-pointer">Area</li>
+                    <li id="ingredients" class="cursor-pointer">Ingredients</li>
+                    <li id="contact" class="cursor-pointer">Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook cursor-pointer"></i>
+                    <i class="fa-brands fa-twitter cursor-pointer"></i>
+                    <i class="fa-solid fa-globe cursor-pointer"></i>
+                </div>
+                <p>Copyright Â© 2019 All Rights</br>
+                    Reserved.</p>
+            </div>
+        </div>
+        <div
+            class="nav-icons bg-white h-screen flex flex-col justify-between items-center px-2 py-5 transition-all duration-700">
+            <img src="./images/logo (1).png" class="w-12" alt="logo image" />
+            <i class="aside-button fa-solid  fa-2x fa-align-justify cursor-pointer hover:cursor-pointer"></i>
+            <div class="share-icons flex flex-col">
+                <i class="fa-solid fa-globe d-block mb-2 cursor-pointer"></i>
+                <i class="fa-solid fa-share-nodes cursor-pointer"></i>
+            </div>
+        </div>
+
+    </aside>
+
+    <section class="pageContent">
+        <div class="tw-container sm:pl-12 w-5/6 m-auto box-border">
+            <div class="tw-row flex flex-wrap py-10">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- loading -->
+    <div class="loading fixed top-0 bottom-0 right-0 left-0 z-50 bg-black  items-center justify-center flex">
+        <div class="loading-icon">
+            <i class="fas fa-spinner fa-5x fa-spin text-white">
+            </i>
+        </div>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>

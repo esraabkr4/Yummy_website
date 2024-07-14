@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .tw-input {
+        @apply shadow-md w-full bg-white text-gray-700 rounded outline-1 py-3 px-4 mb-3 bg-opacity-95 focus:outline-none focus:bg-opacity-100 focus:outline-blue-500 focus:shadow-blue-500
+    }
+
+    .tw-btn-danger-disabled {
+        @apply rounded border-2 border-red-900 px-4 py-2 text-red-900 cursor-not-allowed
+    }
+
+    .tw-btn-danger {
+        @apply rounded border-2 border-red-600 px-4 py-2 text-red-600 transition duration-150 ease-in-out hover:border-red-600 hover:bg-red-600 hover:text-white focus:border-red-900 focus:bg-red-600 focus:border-4 focus:text-white cursor-pointer
+    }
+
+
+}
+
+@layer base {
+    h1 {
+        display: block;
+        font-size: 32px;
+        line-height: 38px;
+        /* margin-top: 0.67em; */
+        /* margin-bottom: 0.67em; */
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: 500;
+    }
+
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
+    h4 {
+        display: block;
+        margin-top: 1.33em;
+        margin-bottom: 1.33em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
+    h5 {
+        display: block;
+        font-size: .83em;
+        margin-top: 1.67em;
+        margin-bottom: 1.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+
+    h6 {
+        display: block;
+        font-size: .67em;
+        margin-top: 2.33em;
+        margin-bottom: 2.33em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+}
